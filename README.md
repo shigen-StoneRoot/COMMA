@@ -1,5 +1,9 @@
 The environment setup is based on U-Mamba (https://github.com/bowang-lab/U-Mamba.git). Please follow the installation instructions provided in the repository to set up the environment.
 
+The masks of the IXI dataset can be found at: https://drive.google.com/file/d/16a05rBkV29iUkNkVXWpTOaYCkencfEVu/view?usp=sharing
+
+The image data can be downloaded at: http://brain-development.org/ixi-dataset/
+
 ## Installation 
 
 Requirements: `Ubuntu 20.04`, `CUDA 11.8`
