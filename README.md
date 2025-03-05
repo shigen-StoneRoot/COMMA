@@ -22,8 +22,6 @@ import torch
 import mamba_ssm
 ```
 
-To run the demo code, please download the KiPA data from (https://kipa22.grand-challenge.org/):
-
 1. Preprocess the Data: Run the preprocessing step with:
 ```
 python preprocessing.py
