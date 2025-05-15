@@ -1,3 +1,5 @@
+# COMMA: Coordinate-aware Modulated Mamba Network for 3D Dispersed Vessel Segmentation
+
 The environment setup is based on U-Mamba (https://github.com/bowang-lab/U-Mamba.git). Please follow the installation instructions provided in the repository to set up the environment.
 
 The open-source data of vessel segmentation for the IXI dataset can be found at: https://drive.google.com/file/d/16a05rBkV29iUkNkVXWpTOaYCkencfEVu/view?usp=sharing
@@ -73,3 +75,18 @@ python eval_save.py
 
 If you encounter any issues, feel free to contact:  
 📧 **shigen@buaa.edu.cn**
+
+## Citation
+
+If you find this work helpful in your research, please consider citing:
+
+```
+@article{shi2025comma,
+  title={COMMA: Coordinate-aware Modulated Mamba Network for 3D Dispersed Vessel Segmentation},
+  author={Shi, Gen and Zhang, Hui and Tian, Jie},
+  journal={arXiv preprint arXiv:2503.02332},
+  year={2025}
+}
+```
+
+
