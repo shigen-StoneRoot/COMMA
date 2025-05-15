@@ -22,19 +22,54 @@ import torch
 import mamba_ssm
 ```
 
-1. Preprocess the Data: Run the preprocessing step with:
+## Data Preparation
+
+### 1. Preprocessing
+
+Place your raw data under `Data/raw_data/` in the following format (example: KiPA):
+
 ```
+Data/raw_data/KiPA/
+├── images/
+│   ├── subject1.nii.gz
+│   ├── ...
+├── masks/
+│   ├── subject1.nii.gz
+│   ├── ...
+```
+
+Then create the necessary folders:
+
+```bash
+mkdir ./CKs
+mkdir ./Prediction
+mkdir ./Data/preprocessed_data
+```
+
+Run:
+
+```bash
 python preprocessing.py
 ```
 
-2. Train the Model: Start the training procedure by running:
-```
+---
+
+### 2. Training
+
+```bash
 python main.py
 ```
 
-3. Evaluate the Model: Finally, perform the evaluation procedure with:
-```
+
+### 3. Evaluation
+
+```bash
 python eval_save.py
 ```
 
-If you have any problem, please email me with this address: shigen@buaa.edu.cn
+---
+
+## Contact
+
+If you encounter any issues, feel free to contact:  
+📧 **shigen@buaa.edu.cn**
