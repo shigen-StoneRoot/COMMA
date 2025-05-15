@@ -256,7 +256,7 @@ def run(args):
     init_it = 1
 
 
-    raw_img_path, sv_seg_path = r'./Data/raw_data/{}/masks'.format(args.dataset), \
+    raw_img_path, sv_seg_path = r'./Data/raw_data/{}/images'.format(args.dataset), \
                                 r'./Prediction/{}'.format(args.dataset)
     if os.path.exists(sv_seg_path) is not True:
         os.mkdir(sv_seg_path)
