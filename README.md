@@ -1,10 +1,31 @@
 # COMMA: Coordinate-aware Modulated Mamba Network for 3D Dispersed Vessel Segmentation
 
-The environment setup is based on U-Mamba (https://github.com/bowang-lab/U-Mamba.git). Please follow the installation instructions provided in the repository to set up the environment.
 
-The open-source data of vessel segmentation for the IXI dataset can be found at: https://drive.google.com/file/d/16a05rBkV29iUkNkVXWpTOaYCkencfEVu/view?usp=sharing
+This repository provides the official implementation of **COMMA**, a coordinate-aware modulated Mamba network for **3D dispersed vessel segmentation**.
 
-The image data can be downloaded at: http://brain-development.org/ixi-dataset/
+Our implementation is built upon [U-Mamba](https://github.com/bowang-lab/U-Mamba.git). Please first follow the official U-Mamba instructions to set up the base environment and dependencies.
+
+---
+
+## News
+
+- **[2025-03]** COMMA is released on arXiv.
+- **[2025-03]** The official codebase is released.
+- **[2026-04]** Pre-trained model weights are available.
+- More updates will be added here.
+
+---
+
+## Resources
+
+- **Pre-trained model weights**:  
+  https://drive.google.com/drive/folders/1Dojb-3JmSg4W-CgPWFSvoAG62HcBRR-b?usp=sharing
+
+- **IXI vessel segmentation annotations**:  
+  https://drive.google.com/file/d/16a05rBkV29iUkNkVXWpTOaYCkencfEVu/view?usp=sharing
+
+- **IXI image data**:  
+  http://brain-development.org/ixi-dataset/
 
 ## Installation 
 
