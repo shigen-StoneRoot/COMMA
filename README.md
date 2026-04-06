@@ -12,6 +12,7 @@ Our implementation is built upon [U-Mamba](https://github.com/bowang-lab/U-Mamba
 - **[2025-03]** COMMA is released on arXiv.
 - **[2025-03]** The official codebase is released.
 - **[2026-04]** Pre-trained model weights are available.
+- **[2026-04]** Our paper has been accepted by IEEE TIP.
 
 ---
 
