@@ -7,6 +7,24 @@ Our implementation is built upon [U-Mamba](https://github.com/bowang-lab/U-Mamba
 
 ---
 
+## Citation
+
+If you find this work helpful in your research, please consider citing:
+
+```
+@ARTICLE{11481593,
+  author={Shi, Gen and Zhang, Hui and Tian, Jie},
+  journal={IEEE Transactions on Image Processing}, 
+  title={COMMA: Coordinate-Aware Modulated Mamba Network for 3D Dispersed Vessel Segmentation}, 
+  year={2026},
+  volume={35},
+  number={},
+  pages={3984-3997},
+  keywords={Feeds;Antennas;Radio broadcasting;Frequency modulation;Filtering;Filters;Integrated circuits;Circuits and systems;Circuits;LoRa;3D vessel segmentation;Mamba;coordinate-aware modeling},
+  doi={10.1109/TIP.2026.3682121}}
+```
+---
+
 ## News
 
 - **[2025-03]** COMMA is released on arXiv.
@@ -96,18 +114,5 @@ python eval_save.py
 
 If you encounter any issues, feel free to contact:  
 📧 **shigen@buaa.edu.cn**
-
-## Citation
-
-If you find this work helpful in your research, please consider citing:
-
-```
-@article{shi2025comma,
-  title={COMMA: Coordinate-aware Modulated Mamba Network for 3D Dispersed Vessel Segmentation},
-  author={Shi, Gen and Zhang, Hui and Tian, Jie},
-  journal={arXiv preprint arXiv:2503.02332},
-  year={2025}
-}
-```
 
 
